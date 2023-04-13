@@ -1,0 +1,171 @@
+.div-5 {
+    background-color: #fff;
+}
+
+.geral {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.titulo-div-5 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.titulo-div-5 hr {
+    width: 300px;
+    height: 0%;
+}
+
+.titulo-div-5 h1 {
+    font-size: 2.5rem;
+    font-weight: 500px;
+}
+
+/* Area das opções */
+
+.op-div-5 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.servico-educacao {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.servico-educacao .op {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.op:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.servico-educacao img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.servico-educacao .descricao-div-5 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.descricao-div-5 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.descricao-div-5 a:hover {
+    background-color: #fff;
+}
+
+.descricao-div-5 p {
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .div-5 {
+      background-color: #ffffffdc;
+      height: auto;
+    }
+  .geral {
+      max-width: 1200px;
+      padding: 10px;
+  }
+  .titulo-div-5 {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+  }
+  .titulo-div-5 hr {
+    display: none;
+  }
+  .titulo-div-5 h1 {
+      font-size: 2.5rem;
+      font-weight: 500px;
+  }
+  /* Area das opções */
+  .op-div-5 {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+  }
+  .servico-educacao {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+  }
+  .servico-educacao .op {
+      background-color: #fff;
+      border-radius: 2px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      padding: 20px;
+  }
+  .op:hover {
+      transform: scale(1.05);
+      transition: 0.5s;
+  }
+  .servico-educacao img {
+      width: 150px;
+      height: 150px;
+      margin: auto;
+  }
+  .servico-educacao .descricao-div-5 {
+      text-align: left;
+      margin-top: 10px;
+      font-size: 1.2rem;
+  }
+  .descricao-div-5 a {
+      font-size: 1.8rem;
+      color: #000;
+      border-bottom: 1px solid #000;
+  }
+  .descricao-div-5 a:hover {
+      background-color: #fff;
+  }
+  .descricao-div-5 p {
+      margin-top: 20px;
+      width: 100%;
+      font-size: 1.2rem;
+  }
+}  

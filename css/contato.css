@@ -209,16 +209,3 @@
       flex-direction: column;
   }
 }
-
-
-@media screen and (min-width:588px) {
-  .container-contato {
-    margin-top: 25vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
-  }
-} 

@@ -1,8 +1,7 @@
-const divs = document.querySelectorAll('.redirecionar');
+const div1 = document.getElementById('pagina1');
 
-for (let i = 0; i < divs.length; i++) {
-  divs[i].addEventListener('click', function() {
-    const url = this.getAttribute('data-url');
-    window.location.href = url;
-  });
-}
+
+div1.addEventListener('click', function() {
+  const url = this.getAttribute('data-url');
+  window.location.href = url;
+});

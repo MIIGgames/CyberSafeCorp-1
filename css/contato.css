@@ -209,3 +209,14 @@
       flex-direction: column;
   }
 }
+
+.redes {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  gap: 1rem;
+}
+.redes img {
+  width: 40px;
+  height: 40px;
+}

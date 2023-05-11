@@ -13,7 +13,13 @@ div2.addEventListener('click', function() {
   window.location.href = url;
 });
 
-div2.addEventListener('click', function() {
+div3.addEventListener('click', function() {
   const url = this.getAttribute('data-url');
   window.location.href = url;
+});
+
+const conheca = document.getElementById('conheca-mais');
+
+conheca.addEventListener('click', function() {
+  window.location.href = 'https://boletim.cybersafecorp.com.br';
 });

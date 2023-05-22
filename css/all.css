@@ -11,4 +11,8 @@
 
 
 /* =================== SERVIÇO - CSS ====================  */
-@import "servico.css"
+@import "servico.css";
+
+/* =================== FERRAMENTAS HACKER - CSS ====================  */
+@import "ferramentas-hacker.css";
+@import "footer.css";

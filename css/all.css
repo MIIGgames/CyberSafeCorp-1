@@ -16,3 +16,6 @@
 /* =================== FERRAMENTAS HACKER - CSS ====================  */
 @import "ferramentas-hacker.css";
 @import "footer.css";
+
+/* =================== ATAQUE DE PHISHING - CSS ====================  */
+@import "phishing.css"

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--================ FONT ================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Mukta:wght@300;800&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!--================ FAICON ================-->
+    <link rel="shortcut icon" href="../img-webp/Logo-branca-cyber.webp" type="image/x-icon">
+    <!--================ TITULO ================-->
+    <title>CyberSafeCorp - Segurança online</title>
+    <!--================ ESTILO ================-->
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+    <!-- =================== MENU ================== -->
+    <header id="header">
+        <a id="logo" href="../index.html">
+            <img src="../img-webp/LOGO-CYBER.webp" alt="">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="../servico/index.html">Serviços</a></li>
+                <li><a href="https://curso.cybersafecorp.com.br/">Educação</a></li>
+                <li><a href="../suporte/index.html">Suporte</a></li>
+                <li class="contato-menu"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =================== BANNER ================== -->
+    <section class="banner-phishing">
+        <div class="titulo-phishing">
+            <h1>Ataque de phishing no Android</h1>
+        </div>
+    </section>
+
+    <!-- =================== PHISHING ================== -->
+    <section class="phishing">
+        <div class="desc-phishing">
+            <p>Neste artigo, vamos explorar como executar um ataque de engenharia social no sistema operacional móvel Android. No entanto, para aqueles que não estão subordinados, a engenharia social é uma tentativa enganosa de obter informações procedentes, tais como nomes de usuário, senhas e dados de cartão de crédito, através da criação de uma falsa identidade confiável em uma comunicação eletrônica.</p>
+
+            <p>Vamos utilizar o aplicativo Termux, que é um emulador de terminal para dispositivos Android e um ambiente Linux, dispensando a necessidade de instalação ou acesso root. O sistema básico mínimo é instalado automaticamente, e é possível obter pacotes adicionais através do gerenciador de pacotes.</p>
+
+            <p>Com o Termux, temos à disposição algumas ferramentas que podem auxiliar em testes de invasão no Android. Por exemplo, o Aircrack-ng (um conjunto de utilitários para testes de segurança em redes Wi-Fi), o Hydra (uma ferramenta de força bruta), o Metasploit (uma ferramenta de testes para vulnerabilidades conhecidas) e o Nmap.</p>
+
+            <p>Se deseja aprender mais técnicas como essa, convidamos você a conhecer a nossa plataforma de <a href="https://curso.cybersafecorp.com.br/">Treinamentos de Cibersegurança.</a></p>
+
+            <p>Para automatizar um ataque de engenharia social, utilizaremos uma ferramenta chamada NEXPHISHER.</p>
+
+            <div class="ul-1">
+                <ul>
+                    <li>Primeiro devemos instalar o Termux no Android, disponível na Play Store.</li>
+
+                    <li>Abra o Termux é faça a instalação da ferramenta NEXPHISHER:</li>
+
+                    <p><span class="comandos">apt update</span> – Atualiza os repositórios.</p>
+
+                    <p><span class="comandos">apt install git -y</span> – Instalar o git.</p>
+
+                    <p><span class="comandos">git clone git://github.com/htr-tech/NEXPHISHER.git</span> – Baixa e instala o NEXPHISHER.</p>
+
+                    <p><span class="comandos">cd nexphiser</span> – Abra a ferramenta.</p>
+
+                    <p>Executamos a ferramenta:</p>
+                        <span class="comandos">bash setup</span>
+                        <br><br>
+                        <span class="comandos">bash tmux_setup</span>
+                        <br><br>
+                        <span class="comandos">bash nexphiser</span>
+                </ul>
+            </div>
+
+            <div class="img">
+                <img src="img/img-1.png" alt="Você deve ter chegado até essa tela. Então vamos começar o ataque!">
+                <p>Você deve ter chegado até essa tela. Então vamos começar o ataque!</p>
+            </div>
+
+            <div class="ul-1">
+                <ul>
+                    <li>Então vamos clonar a página de login de uma rede social, por exemplo: digite 1.</li>
+
+                    <li>Escolha a opção “localhostrun”, digite 5.</li>
+
+                    <li>Agora para acessar do navegador basta usar o endereço: <a href="http://127.0.0.1:4545/">http://127.0.0.1:4545/</a></li>
+
+                    <li>Quando a vítima colocar o e-mail e senha dela nessa tela de login o nexphiser vai capturar.</li>
+
+                    <li>Vale lembrar que a vítima deve estar na mesma rede que a sua.</li>
+                </ul>
+            </div>
+
+            <div class="img">
+                <img src="img/img-2.png" alt="Você deve ter chegado até essa tela. Então vamos começar o ataque!">
+                <p>Tela de captura</p>
+            </div>
+
+        </div>
+          
+    </section>
+
+    <!-- =================== FOOTER ================== -->
+    <footer id="contato">
+        <div class="contatos">
+            <div class="redes">
+                <a target="_blank" href="https://www.instagram.com/cybersafecorp/">
+                    <img src="../icons/instagram (1).png" alt="">
+                </a>
+
+                <a target="_blank" href="https://twitter.com/cybersafecorp?t=7_AGQ0oXVTZo6p_z1FbUCA&s=08">
+                    <img src="../icons/twitter (1).png" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="../icons/linkedin.png" alt="">
+                </a>
+            </div>
+            <a class="contato-footer" href="https://cybersafecorp.com.br/suporte/index.html">Entre em contato com a CyberSafeCorp.</a>
+            <p>Copyright © 2023 CyberSafeCorp. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="../js/menu-ancora.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

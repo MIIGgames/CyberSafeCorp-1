@@ -1,0 +1,93 @@
+.banner-phishing {
+    background-image: url("../phishing/img/BANNER-HACKER\ \(1\).png");
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.titulo-phishing{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-phishing h1 {
+    margin-top: 10%;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.phishing {
+    background-color: #fff;
+}
+
+.desc-phishing {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.desc-phishing p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000ab;
+}
+
+.desc-phishing a {
+    color: #0069d9;
+    font-family: sans-serif;
+}
+
+.ul-1 {
+    margin-top: 20px;
+    margin: 20px;
+    color: #000000ab;
+}
+
+.ul-1 ul li {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.comandos {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+}
+
+.phishing img {
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:768px) {
+    .banner-phishing {
+        background-image: url("../phishing/img/BANNER-HACKER\ \(1\).png");
+        background-position: bottom;
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .titulo-phishing h1 {
+        margin-top: 25%;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+    }
+    .ul-1 p {
+        margin-top: 20px;
+    }
+
+    .comandos {
+        padding: 3px;
+    }
+}
+
+  
